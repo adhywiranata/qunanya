@@ -7,4 +7,9 @@ describe('<Header>', () => {
     const header = shallow(<Header />);
     expect(header).toBeDefined();
   });
+
+  it('renders <SearchBar> as child', () => {
+    const header = shallow(<Header />);
+    expect(header.find('<SearchBar />')).toHaveLength(1);
+  });
 });
