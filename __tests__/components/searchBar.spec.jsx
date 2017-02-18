@@ -8,4 +8,9 @@ describe('<SearchBar>', () => {
     const searchBar = shallow(<SearchBar />);
     expect(searchBar).toBeDefined();
   });
+
+  it('renders the search text input', () => {
+    const searchBar = shallow(<SearchBar />);
+    expect(searchBar.find('TextInput')).toHaveLength(1);
+  });
 });
