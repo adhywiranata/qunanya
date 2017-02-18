@@ -6,7 +6,7 @@ import Header from '../../src/components/Header';
 describe('<Header>', () => {
   it('renders correctly', () => {
     const header = shallow(<Header />);
-    expect(header).toBeDefined();
+    expect(header).toHaveLength(1);
   });
 
   it('renders <SearchBar> as child', () => {

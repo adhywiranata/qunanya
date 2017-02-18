@@ -5,6 +5,6 @@ import ContentSection from '../../src/components/ContentSection';
 describe('<ContentSection>', () => {
   it('renders correctly', () => {
     const contentSection = shallow(<ContentSection />);
-    expect(contentSection).toBeDefined();
+    expect(contentSection).toHaveLength(1);
   });
 });

@@ -5,6 +5,6 @@ import App from '../../src/App';
 describe('<App>', () => {
   it('renders normally', () => {
     const app = shallow(<App />);
-    expect(app).toBeDefined();
+    expect(app).toHaveLength(1);
   });
 });

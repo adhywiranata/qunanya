@@ -6,7 +6,7 @@ import SearchBar from '../../src/components/SearchBar';
 describe('<SearchBar>', () => {
   it('renders correctly', () => {
     const searchBar = shallow(<SearchBar />);
-    expect(searchBar).toBeDefined();
+    expect(searchBar).toHaveLength(1);
   });
 
   it('renders the search text input', () => {
