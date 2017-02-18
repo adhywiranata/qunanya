@@ -1,11 +1,9 @@
 import React from 'react';
-import { View, Text } from 'react-native';
+import { View, TextInput } from 'react-native';
 
 const SearchBar = () => (
   <View>
-    <Text>
-      test
-    </Text>
+    <TextInput />
   </View>
 );
 
