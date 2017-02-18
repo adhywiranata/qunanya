@@ -1,11 +1,12 @@
 import React from 'react';
-import { View, Text } from 'react-native';
+import { View, TouchableHighlight } from 'react-native';
 
 const Navbar = () => (
   <View>
-    <Text>
-      test
-    </Text>
+    <TouchableHighlight>Read</TouchableHighlight>
+    <TouchableHighlight>Answer</TouchableHighlight>
+    <TouchableHighlight>Notification</TouchableHighlight>
+    <TouchableHighlight>You</TouchableHighlight>
   </View>
 );
 
