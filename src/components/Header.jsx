@@ -1,9 +1,11 @@
 import React from 'react';
-import { View, Text } from 'react-native';
+import { View } from 'react-native';
+
+import SearchBar from './SearchBar';
 
 const Header = () => (
   <View>
-    <Text>test</Text>
+    <SearchBar />
   </View>
 );
 
