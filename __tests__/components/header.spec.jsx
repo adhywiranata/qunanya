@@ -16,6 +16,6 @@ describe('<Header>', () => {
 
   it('renders <menuBar> as child', () => {
     const header = shallow(<Header />);
-    expect(header.find('MenuBar').toHaveLength(1));
+    expect(header.find('MenuBar')).toHaveLength(1);
   });
 });
