@@ -22,6 +22,8 @@ const styles = StyleSheet.create({
     flexDirection: 'row',
     backgroundColor: '#FFF',
     alignItems: 'center',
+    borderTopColor: '#AAA',
+    borderTopWidth: 0.5,
   },
   navbutton: {
     width: WINDOW_WIDTH / 4,
@@ -30,7 +32,10 @@ const styles = StyleSheet.create({
   },
   navtext: {
     textAlign: 'center',
-    fontSize: 12,
+    fontSize: 14,
+  },
+  selectedNavText: {
+    color: '#96281B',
   },
   contentSection: {
     flex: 1,
