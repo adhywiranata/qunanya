@@ -1,11 +1,16 @@
 import React from 'react';
 import { View, Text, ScrollView } from 'react-native';
 
+import styles from '../styles';
+
 const ContentSection = () => (
-  <ScrollView>
-    <Text>
-      This is Content
-    </Text>
+  <ScrollView style={styles.contentSection}>
+    <View style={styles.contentItem}>
+      <Text>sample item</Text>
+    </View>
+    <View style={styles.contentItem}>
+      <Text>sample item</Text>
+    </View>
   </ScrollView>
 );
 

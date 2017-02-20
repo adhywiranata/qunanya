@@ -32,6 +32,15 @@ const styles = StyleSheet.create({
     textAlign: 'center',
     fontSize: 12,
   },
+  contentSection: {
+    flex: 1,
+    flexDirection: 'column',
+  },
+  contentItem: {
+    backgroundColor: '#FFFFFF',
+    padding: 30,
+    marginTop: 10,
+  },
 });
 
 export default styles;
