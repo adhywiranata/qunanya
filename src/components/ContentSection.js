@@ -4,7 +4,7 @@ import { View, Text } from 'react-native';
 const ContentSection = () => (
   <View>
     <Text>
-      test
+      This is Content
     </Text>
   </View>
 );

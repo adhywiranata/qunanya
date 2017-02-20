@@ -1,10 +1,14 @@
 import React from 'react';
-import { View, TouchableHighlight } from 'react-native';
+import { View, Text, TouchableHighlight } from 'react-native';
 
 const MenuBar = () => (
   <View>
-    <TouchableHighlight>Feed</TouchableHighlight>
-    <TouchableHighlight>Bookmark</TouchableHighlight>
+    <TouchableHighlight>
+      <Text>Feed</Text>
+    </TouchableHighlight>
+    <TouchableHighlight>
+      <Text>Bookmark</Text>
+    </TouchableHighlight>
   </View>
 );
 
