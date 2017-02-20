@@ -17,7 +17,7 @@ const ContentItem = () => (
       <Text>
         Sebenarnya, React tidak bisa dibandingkan apple-to-apple dengan Angular.
         Namun, bla bla bla bla.
-        <TouchableHighlight>
+        <TouchableHighlight style={{ width: 50, height: 50 }}>
           <Text>Read More..</Text>
         </TouchableHighlight>
       </Text>
