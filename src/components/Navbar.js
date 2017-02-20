@@ -10,16 +10,16 @@ import styles from '../styles';
 const Navbar = () => (
   <View style={styles.navbar}>
     <TouchableHighlight style={styles.navbutton}>
-      <Text style={styles.navtext}>Read</Text>
+      <Text style={styles.selectedNavText}>Read</Text>
     </TouchableHighlight>
     <TouchableHighlight style={styles.navbutton}>
-      <Text style={styles.navtext}>Answer</Text>
+      <Text style={styles.navText}>Answer</Text>
     </TouchableHighlight>
     <TouchableHighlight style={styles.navbutton}>
-      <Text style={styles.navtext}>Notification</Text>
+      <Text style={styles.navText}>Notifications</Text>
     </TouchableHighlight>
     <TouchableHighlight style={styles.navbutton}>
-      <Text style={styles.navtext}>You</Text>
+      <Text style={styles.navText}>You</Text>
     </TouchableHighlight>
   </View>
 );

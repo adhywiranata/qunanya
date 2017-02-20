@@ -30,12 +30,15 @@ const styles = StyleSheet.create({
     paddingTop: 30,
     paddingBottom: 30,
   },
-  navtext: {
+  navText: {
     textAlign: 'center',
     fontSize: 14,
   },
   selectedNavText: {
+    textAlign: 'center',
+    fontSize: 14,
     color: '#96281B',
+    fontWeight: 'bold',
   },
   contentSection: {
     flex: 1,
