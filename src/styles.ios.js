@@ -87,6 +87,16 @@ const styles = StyleSheet.create({
     padding: 30,
     marginTop: 10,
   },
+  questionPostBox: {
+    backgroundColor: '#FFFFFF',
+    borderBottomColor: '#DDD',
+    borderBottomWidth: 0.5,
+    height: 70,
+    padding: 20,
+  },
+  questionPostInput: {
+    height: 50,
+  },
 });
 
 export default styles;
