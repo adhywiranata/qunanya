@@ -1,12 +1,12 @@
 import React from 'react';
-import { View, Text } from 'react-native';
+import { View, Text, ScrollView } from 'react-native';
 
 const ContentSection = () => (
-  <View>
+  <ScrollView>
     <Text>
       This is Content
     </Text>
-  </View>
+  </ScrollView>
 );
 
 export default ContentSection;
