@@ -1,12 +1,10 @@
 import 'react-native';
 import React from 'react';
-import renderer from 'react-test-renderer';
+import { shallow } from 'enzyme';
 
 import Index from '../index.android';
 
 it('renders correctly', () => {
-  const tree = renderer.create(
-    <Index />,
-  );
+  const tree = shallow(<Index />);
   expect(tree).toBeDefined();
 });
