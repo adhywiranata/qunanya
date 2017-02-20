@@ -11,8 +11,46 @@ const styles = StyleSheet.create({
     height: WINDOW_HEIGHT,
   },
   header: {
-    backgroundColor: '#96281B',
+    height: 140,
+    flexDirection: 'column',
+  },
+  searchBar: {
+    paddingTop: 40,
+    paddingLeft: 10,
+    paddingRight: 10,
     height: 100,
+    backgroundColor: '#96281B',
+  },
+  searchInput: {
+    backgroundColor: 'rgba(0, 0, 0, 0.2)',
+    color: '#FFFFFF',
+    height: 40,
+    padding: 10,
+    borderRadius: 8,
+  },
+  menuBar: {
+    height: 40,
+    backgroundColor: '#96281B',
+    flexDirection: 'row',
+    borderBottomColor: '#DDD',
+    borderBottomWidth: 0.5,
+  },
+  upperMenu: {
+    padding: 5,
+    flex: 1,
+    flexDirection: 'column',
+    alignItems: 'center',
+  },
+  upperMenuTextActive: {
+    textAlign: 'center',
+    color: '#FFFFFF',
+    fontSize: 16,
+  },
+  upperMenuText: {
+    textAlign: 'center',
+    color: '#FFFFFF',
+    fontSize: 16,
+    opacity: 0.5,
   },
   navbar: {
     position: 'absolute',
