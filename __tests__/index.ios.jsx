@@ -12,6 +12,6 @@ describe('React renderer', () => {
 
   it('renders <App />', () => {
     const wrapper = shallow(<Index />);
-    expect(wrapper.find('<App />')).toHaveLength(1);
+    expect(wrapper.find('App')).toHaveLength(1);
   });
 });
