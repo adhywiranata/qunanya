@@ -87,6 +87,11 @@ const styles = StyleSheet.create({
     padding: 30,
     marginTop: 10,
   },
+  contentItemTitle: {
+    fontSize: 18,
+    fontWeight: 'bold',
+    marginBottom: 10,
+  },
   questionPostBox: {
     backgroundColor: '#FFFFFF',
     borderBottomColor: '#DDD',
