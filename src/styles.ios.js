@@ -106,6 +106,30 @@ const styles = StyleSheet.create({
   contentItemDescription: {
     marginTop: 10,
   },
+  contentItemActionGrid: {
+    flexDirection: 'row',
+  },
+  contentItemActionUpvoteButton: {
+    padding: 5,
+    backgroundColor: '#EEE',
+    borderRadius: 5,
+    paddingLeft: 10,
+    paddingRight: 10,
+    borderColor: 'rgba(0, 0, 0, 0.5)',
+    borderWidth: 0.5,
+    marginRight: 5,
+  },
+  contentItemActionButton: {
+    padding: 5,
+  },
+  upvoteActionText: {
+    fontSize: 13,
+    fontWeight: 'bold',
+  },
+  linkActionText: {
+    fontSize: 13,
+    fontWeight: 'bold',
+  },
   questionPostBox: {
     backgroundColor: '#FFFFFF',
     borderBottomColor: '#DDD',

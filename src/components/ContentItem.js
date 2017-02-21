@@ -32,6 +32,17 @@ const ContentItem = () => (
         <Text>Read More..</Text>
       </TouchableHighlight>
     </View>
+    <View style={styles.contentItemActionGrid}>
+      <TouchableHighlight style={styles.contentItemActionUpvoteButton}>
+        <Text style={styles.upvoteActionText}>Upvote | 20</Text>
+      </TouchableHighlight>
+      <TouchableHighlight style={styles.contentItemActionButton}>
+        <Text style={styles.linkActionText}>Downvote</Text>
+      </TouchableHighlight>
+      <TouchableHighlight style={styles.contentItemActionButton}>
+        <Text style={styles.linkActionText}>Comments 5+</Text>
+      </TouchableHighlight>
+    </View>
   </View>
 );
 
