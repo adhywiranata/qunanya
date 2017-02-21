@@ -1,5 +1,5 @@
 import React from 'react';
-import { View, Text, TouchableHighlight } from 'react-native';
+import { View, Text, TouchableHighlight, Image } from 'react-native';
 
 import styles from '../styles';
 
@@ -8,24 +8,29 @@ const ContentItem = () => (
     <Text style={styles.contentItemTitle}>
       Kenapa React lebih populer ketimbang Angular?
     </Text>
-    <View>
-      <Text>MUKA ORANG</Text>
-      <Text>Jimminy Cricket, Software Engineer, Lapakpedia</Text>
-      <Text style={{ opacity: 0.7, fontSize: 12 }}>
-        Written Feb 10. Upvoted by Rudi, Mike, John, and 213 others
-      </Text>
+    <View style={styles.contentItemUserGrid}>
+      <Image
+        source={{ uri: 'https://www.wrnsstudio.com/system/people/83/grid_sm_grid_image.jpg' }}
+        style={styles.contentItemUserPhoto}
+      />
+      <View>
+        <Text>Jimminy Cricket, </Text>
+        <Text style={{ opacity: 0.8, fontSize: 12 }}>
+          Software Engineer at Lapakpedia
+        </Text>
+      </View>
     </View>
-    <View>
+    <View style={styles.contentItemDescription}>
       <Text>
         Sebenarnya, React tidak bisa dibandingkan apple-to-apple dengan Angular.
-        Namun, bla bla bla bla.
-        <TouchableHighlight
-          style={{
-            width: 150, height: 30, opacity: 0.5, paddingTop: 16, paddingLeft: 5 }}
-        >
-          <Text>Read More..</Text>
-        </TouchableHighlight>
+        Namun, bla bla bla bla...
       </Text>
+      <TouchableHighlight
+        style={{
+          width: 150, height: 30, opacity: 0.5, paddingTop: 5 }}
+      >
+        <Text>Read More..</Text>
+      </TouchableHighlight>
     </View>
   </View>
 );

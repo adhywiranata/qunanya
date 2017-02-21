@@ -84,13 +84,27 @@ const styles = StyleSheet.create({
   },
   contentItem: {
     backgroundColor: '#FFFFFF',
-    padding: 30,
+    padding: 20,
     marginTop: 10,
   },
   contentItemTitle: {
     fontSize: 18,
     fontWeight: 'bold',
     marginBottom: 10,
+  },
+  contentItemUserGrid: {
+    flexDirection: 'row',
+    paddingRight: 10,
+    paddingLeft: 0,
+  },
+  contentItemUserPhoto: {
+    width: 40,
+    height: 40,
+    borderRadius: 0,
+    marginRight: 10,
+  },
+  contentItemDescription: {
+    marginTop: 10,
   },
   questionPostBox: {
     backgroundColor: '#FFFFFF',
